@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //spread operator with array
+        const arr1 = [1,2,3];
+        const arr2 = [4,5,6];
+        const ans = [...arr1,...arr2];
+        console.log(ans);
+
+        // spread with object
+        const a1 = {
+            name:'Krunal',
+            rollNo:337
+        }
+        const a2 = {
+            lastname:'Galani',
+            ErNo:240101072
+        }
+        const result = {...a1, ...a2};
+        console.log(result);
+    </script>
+</body>
+</html>
